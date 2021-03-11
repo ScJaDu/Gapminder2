@@ -1,0 +1,26 @@
+---
+title: "Gapminder2"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+tinytex::install_tinytex()
+
+library(tidyverse)
+library(gapminder) 
+```
+
+## Introduction
+
+In this document, we will explore the gapminder dataset.
+
+```{r gapminder1, include = FALSE}
+summary(gapminder)
+```
+
+## list
+1. list 1
+2. list 2
+* Item 1
+* Item 2
